@@ -17,26 +17,22 @@
                         <p>
                             Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet.
                         </p>
-                        <form action="#" class="">
+                        <form method="POST" action="/contact" id="contact-form" role="form">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name">
-                                <label class="mdl-textfield__label" for="Name">Name...</label>
-                                <span class="mdl-textfield__error">Letters and spaces only</span>
+                                <input class="mdl-textfield__input" type="text" id="email" name="email" placeholder="your email">
+                                <label class="mdl-textfield__label" for="email"></label>
                             </div>
+                    
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="Email">
-                                <label class="mdl-textfield__label" for="Email">Email...</label>
+                                <textarea class="mdl-textfield__input" type="text" rows="5" id="message" name="message" placeholder="your message"></textarea>
+                    
+                                <label class="mdl-textfield__label" for="message"></label>
                             </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <textarea class="mdl-textfield__input" type="text" rows="5" id="note"></textarea>
-                                <label class="mdl-textfield__label" for="note">Enter note</label>
-                            </div>
-                            <p>
-                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-                                    Submit
-                                </button>
-                            </p>
-                        </form>
+                            <br>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                                Submit
+                            </button>
+                    </form>
                     </div>
                 </div>
             </div>
